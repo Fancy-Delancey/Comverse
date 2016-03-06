@@ -41,7 +41,7 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-                                                             /*Header Css*/
+                                                             /*!*Header Css*!Box1*/
 .box1{
     width:940px;
     margin:0 auto;
@@ -157,9 +157,32 @@ table {
     width: 940px;
     padding: 0px;
     margin-top: 17px;
-    display: inline-block;
     position:absolute;
     right: -155px;
+}
+.popindad{
+    float: left;
+    height: 40px;
+     width:250px;
+    margin-top: 20px;
+}
+
+.popin{
+    margin:3px 20px;
+    padding: 2px;
+    float: left;
+    font-size: 15px;
+
+}
+
+.picin{
+    float: right;
+    padding: 10px 20px;
+    padding-left: 55px;
+    margin: 15px 20px;
+    border-left: 1px solid gray;
+    clear: both;
+
 }
 .line2{
     padding-left: 12px;
@@ -167,12 +190,9 @@ table {
     padding-bottom:0px;
     padding-right: 0px;
 }
-.box2{
-    height: 540px;
-    background: orange;
-}
-                                                      /*Header Hover Css*/
 
+
+                                                      /*Header Hover Css*/
 .menu_titles:hover {
     z-index:5;
     border: 1px lightgray solid;
@@ -187,3 +207,9 @@ table {
     display:inline-block;
     border: none;
 }
+
+                                                           /*Body/ Box2*/
+.box2{
+    height: 540px;
+    /*background: orange;*/
+    background-image:url(img/slide-bg-complexity.jpg);

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Convers.iml" filepath="$PROJECT_DIR$/.idea/Convers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/convers.iml" filepath="$PROJECT_DIR$/.idea/convers.iml" />
     </modules>
   </component>
 </project>

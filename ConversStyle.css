@@ -37,6 +37,7 @@ q:before, q:after {
     content: '';
     content: none;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -50,6 +51,7 @@ table {
     text-align:center;
     height:90px;
 }
+
 .header{
       background:white;
       width:100%;
@@ -57,6 +59,7 @@ table {
       padding-bottom: 10px;
     text-align: center;
 }
+
 .logo{
     margin-bottom: 5px ;
     display: inline-block;
@@ -64,7 +67,8 @@ table {
     bottom:0;
     left: 0;
 }
-.login {
+
+.login{
     display:inline-block;
     position:absolute;
     top:0;
@@ -72,6 +76,7 @@ table {
     width:150px;
     height: 90px;
 }
+
 .language{
     color: dimgray;
     position:absolute;
@@ -82,6 +87,7 @@ table {
     padding:0;
     margin-top:10px;
 }
+
 .line1{
     position:absolute;
     top: 0;
@@ -89,6 +95,7 @@ table {
     margin-top:10px;
     color: darkgrey;
 }
+
 .costumer{
     color: dimgray;
     position: absolute;
@@ -100,15 +107,17 @@ table {
     font-weight:bold;
     margin-top:10px;
 }
+
 .search{
     position:absolute;
     right:0;
     bottom:0;
     width:140px;
     height:15px;
-    border-radius:90px;
+    border-radius: 90px;
     margin-bottom: 5px;
 }
+
 .line{
     position: absolute;
     bottom: 0px;
@@ -116,6 +125,7 @@ table {
     color: darkgrey;
     margin-bottom: 5px;
 }
+
 .search_logo{
     position: absolute;
     bottom: 0px;
@@ -123,43 +133,50 @@ table {
     border: none;
     margin-left:10px;
 }
+
 .language{
     display: inline-block;
 }
+
 .top_menu{
     margin-bottom: 5px;
     display: inline-block;
-    width: 600px;
+    width: 650px;
     margin-top: 0px;
     text-align: center;
     box-sizing: border-box;
     position: absolute;
     bottom:0px;
-    right:155px;
+    right:130px;
 }
+
 .top_buttoms{
     font-size: 14px;
     display: inline-block;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 5px;
+    padding-left: 0px;
     text-align: center;
     padding-top: 0;
-    padding-bottom:0 ;
+    padding-bottom:0px;
 }
-.menu_titles{
+
+.menu_titles {
     position: relative;
     color: gray;
+    padding:15px 10px;
+    font-weight:bolder;
 }
+
 .pop{
     display: none;
     overflow: auto;
-    text-align: center;
     width: 940px;
     padding: 0px;
     margin-top: 17px;
     position:absolute;
-    right: -155px;
+    right: -132px;
 }
+
 .popindad{
     float: left;
     height: 40px;
@@ -172,7 +189,6 @@ table {
     padding: 2px;
     float: left;
     font-size: 15px;
-
 }
 
 .picin{
@@ -180,12 +196,12 @@ table {
     padding: 10px 20px;
     padding-left: 55px;
     margin: 15px 20px;
-    border-left: 1px solid gray;
+    border-left: 1px solid lightgray;
     clear: both;
 
 }
 .line2{
-    padding-left: 12px;
+    padding-left: 0px;
     padding-top: 0px;
     padding-bottom:0px;
     padding-right: 0px;
@@ -198,9 +214,11 @@ table {
     border: 1px lightgray solid;
     border-bottom: 0px;
     box-shadow:-5px 9px 8px rgba(0,0,0,0.4);
-    height: ;
-
+    height: 40px;
+    margin-bottom: 0px;
+    overflow: auto;
 }
+
 .menu_titles:hover ~ .pop {
     background:white;
     z-index:5;
@@ -213,3 +231,4 @@ table {
     height: 540px;
     /*background: orange;*/
     background-image:url(img/slide-bg-complexity.jpg);
+background: auto;

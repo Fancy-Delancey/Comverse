@@ -46,7 +46,7 @@ table {
 .box1{
     width:940px;
     margin:0 auto;
-    background:;
+    /*background:;*/
     position:relative;
     text-align:center;
     height:90px;
@@ -80,7 +80,7 @@ table {
 .language{
     color: dimgray;
     position:absolute;
-    top:0px;
+    top:0;
     right:111px;
     border-style:hidden;
     background:white;
@@ -99,9 +99,9 @@ table {
 .costumer{
     color: dimgray;
     position: absolute;
-    top: 0px;
+    top:0;
     width:100px;
-    right: 0px;
+    right:0;
     font-size:10px;
     line-height:15px;
     font-weight:bold;
@@ -120,7 +120,7 @@ table {
 
 .line{
     position: absolute;
-    bottom: 0px;
+    bottom:0;
     right: 30px;
     color: darkgrey;
     margin-bottom: 5px;
@@ -128,8 +128,8 @@ table {
 
 .search_logo{
     position: absolute;
-    bottom: 0px;
-    right: 0px;
+    bottom:0;
+    right:0;
     border: none;
     margin-left:10px;
 }
@@ -142,11 +142,11 @@ table {
     margin-bottom: 5px;
     display: inline-block;
     width: 650px;
-    margin-top: 0px;
+    margin-top:0;
     text-align: center;
     box-sizing: border-box;
     position: absolute;
-    bottom:0px;
+    bottom:0;
     right:130px;
 }
 
@@ -154,7 +154,7 @@ table {
     font-size: 14px;
     display: inline-block;
     padding-right: 5px;
-    padding-left: 0px;
+    padding-left:0;
     text-align: center;
     padding-top: 0;
     padding-bottom:0px;
@@ -171,8 +171,8 @@ table {
     display: none;
     overflow: auto;
     width: 940px;
-    padding: 0px;
-    margin-top: 17px;
+    padding:0;
+    margin-top:20px;
     position:absolute;
     right: -132px;
 }
@@ -201,34 +201,34 @@ table {
 
 }
 .line2{
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-bottom:0px;
-    padding-right: 0px;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom:0;
+    padding-right: 0;
 }
 
 
                                                       /*Header Hover Css*/
-.menu_titles:hover {
-    z-index:5;
+.top_buttoms:hover {
+    z-index:4;
     border: 1px lightgray solid;
-    border-bottom: 0px;
+    border-bottom:0;
     box-shadow:-5px 9px 8px rgba(0,0,0,0.4);
-    height: 40px;
-    margin-bottom: 0px;
+    margin-bottom:0;
     overflow: auto;
 }
 
-.menu_titles:hover ~ .pop {
+.top_buttoms:hover  .pop {
     background:white;
     z-index:5;
     display:inline-block;
     border: none;
+
 }
 
                                                            /*Body/ Box2*/
-.box2{
+.box2 {
     height: 540px;
-    /*background: orange;*/
-    background-image:url(img/slide-bg-complexity.jpg);
-background: auto;
+    background-image: url(img/slide-bg-complexity.jpg);
+    background-position: -500px;
+}

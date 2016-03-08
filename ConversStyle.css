@@ -46,7 +46,6 @@ table {
 .box1{
     width:940px;
     margin:0 auto;
-    /*background:;*/
     position:relative;
     text-align:center;
     height:90px;
@@ -148,6 +147,7 @@ table {
     position: absolute;
     bottom:0;
     right:130px;
+
 }
 
 .top_buttoms{
@@ -165,6 +165,7 @@ table {
     color: gray;
     padding:15px 10px;
     font-weight:bolder;
+
 }
 
 .pop{
@@ -172,7 +173,7 @@ table {
     overflow: auto;
     width: 940px;
     padding:0;
-    margin-top:20px;
+    margin-top:17px;
     position:absolute;
     right: -132px;
 }
@@ -209,26 +210,121 @@ table {
 
 
                                                       /*Header Hover Css*/
-.top_buttoms:hover {
-    z-index:4;
+.menu_titles:hover {
+    z-index:5;
     border: 1px lightgray solid;
     border-bottom:0;
     box-shadow:-5px 9px 8px rgba(0,0,0,0.4);
     margin-bottom:0;
-    overflow: auto;
+    padding-bottom: 20px;
+    background: white;
 }
 
-.top_buttoms:hover  .pop {
+.top_buttoms:hover .pop {
     background:white;
-    z-index:5;
+    z-index:10;
     display:inline-block;
     border: none;
-
+    border-top:0 ;
+    box-shadow: -5px 9px 8px rgba(0,0,0,0.4);
 }
 
+
                                                            /*Body/ Box2*/
-.box2 {
+.one {
     height: 540px;
     background-image: url(img/slide-bg-complexity.jpg);
-    background-position: -500px;
+    background-position: -570px ;
+}
+.box2{
+    position:relative;
+    width:940px;
+    margin:0 auto;
+    text-align:left;
+}
+h1{
+    position:absolute;
+    display: inline-block;
+    left: 0;
+    font-size:50px;
+    margin-top: 55px;
+    color: white;
+}
+
+.sub_title{
+    position:absolute;
+    bottom: -220px;
+    margin: 20px 0 20px 0;
+    left: 0;
+    font-size:22px;
+    color: white;
+}
+.sub_title1{
+    position: absolute;
+    bottom: -229px;
+    left: 0;
+    font-size:22px;
+    color: white;
+}
+.learn_more{
+    position: absolute;
+    bottom: -285px;
+    width: 173px;
+    height: 32px;
+    background:#1D8DC6;
+    border-radius: 90px;
+    border: none;
+    color: white;
+    text-align:left;
+}
+.checkbox{
+    position: absolute;
+    display: inline-block;
+    bottom: -320px;
+    left: 0;
+}
+.color_boxes1{
+    position: absolute;
+    display: inline-block;
+    bottom: -525px;
+    width: 268px;
+    height: 170px;
+    opacity: 0.9;
+    padding: 12px;
+    padding-bottom: 0;
+    background-color:#FA429D ;
+}
+.color_boxes2{
+    position: absolute;
+    display: inline-block;
+    bottom: -525px;
+    width: 268px;
+    height: 170px;
+    opacity: 0.9;
+    padding: 12px;
+    padding-bottom: 0;
+    background-color:#6AC43D ;
+    left: 340px;
+}
+.color_boxes3{
+    position: absolute;
+    display: inline-block;
+    bottom: -525px;
+    width: 268px;
+    height: 170px;
+    opacity: 0.9;
+    padding: 12px;
+    padding-bottom: 0;
+    background-color:#FF710F ;
+    left: 680px;
+}
+.text_in_color_box{
+    color:white;
+    font-size:25px;
+}
+
+                                                       /*Box2/Hover*/
+
+.color_boxes1:hover,.color_boxes2:hover,.color_boxes3:hover{
+    opacity:1;
 }

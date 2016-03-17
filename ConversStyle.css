@@ -147,7 +147,6 @@ table {
     position: absolute;
     bottom:0;
     right:130px;
-
 }
 
 .top_buttoms{
@@ -165,7 +164,6 @@ table {
     color: gray;
     padding:15px 10px;
     font-weight:bolder;
-
 }
 
 .pop{
@@ -677,6 +675,7 @@ h5{
     left:10px;
 }
 .img_blockquote_bottom_back{
+
     background: dodgerblue;
     position: absolute;
     bottom:10px;
@@ -744,6 +743,8 @@ h5{
     position: relative;
     right: 20px;
     margin: 0 8px;
+    transition: all, .5s, linear;
+
 
 }
 .small_slider_over{
@@ -752,7 +753,6 @@ h5{
     position: absolute;
     width: 100px;
     height: 100px;
-    transition: all, .5s, linear;
 
 }
 
@@ -849,5 +849,5 @@ h5{
 }
 
 .over_big_back_blue2{
-    max-height: 0;
+    height: 0;
 }

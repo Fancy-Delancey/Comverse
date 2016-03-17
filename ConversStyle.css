@@ -266,6 +266,7 @@ h1{
     color: white;
 }
 .learn_more{
+    text-align: left;
     position: absolute;
     bottom: -275px;
     width: 173px;
@@ -274,7 +275,6 @@ h1{
     border-radius: 9px;
     border: none;
     color: white;
-    text-align:left;
     opacity: 0.8;
 
 }
@@ -350,20 +350,22 @@ h1{
 .two{
     background-color: #409FC6;
     height: 500px;
+    position: relative;
 }
 
 .box3{
-    width: 940px;
+    width: 940px ;
+    margin: 0px auto;
     height: 800px;
     text-align:center;
-    position:relative;
+    /*position:relative;*/
 }
 
 h2{
     position:absolute;
     font-size:55px;
     color: white;
-    bottom: -137px;
+    top: 70px;
     right: 248px;
 }
 
@@ -371,8 +373,8 @@ h2{
     width: 940px;
     display: inline-block;
     position: absolute;
-    bottom: -360px;
-    right: 148px;
+    bottom: 148px;
+    right: 167px;
 
 }
 
@@ -745,7 +747,6 @@ h5{
     margin: 0 8px;
     transition: all, .5s, linear;
 
-
 }
 .small_slider_over{
     z-index: 10;
@@ -850,4 +851,138 @@ h5{
 
 .over_big_back_blue2{
     height: 0;
+}
+
+
+                                                  /*footer/box6*!*/
+footer{
+    background: black;
+    position: relative;
+}
+.box7{
+    width: 940px;
+    margin: 0 auto;
+    text-align: left;
+    height: 350px;
+
+}
+.small_title{
+    font-size: 16px;
+    color: white;
+}
+.fotter_p_wraper{
+    float: left;
+    /*display: inline-block;*/
+    width: 150px;
+    text-align: left;
+    font-size: 12px;
+    margin: 15px 50px 0 0;
+}
+.fotter_p_wraper a {
+    text-decoration: none;
+    margin: 7px;
+    color: white;
+}
+
+.press_release{
+    text-align: center;
+    width:280px;
+    height: 350px;
+    background:lightslategray ;
+    margin: 0px 20px;
+    display: inline-block;
+    clear: both;
+    position: relative;
+}
+.prees_release_title{
+    color: #1D8DC6;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top:15px;
+}
+
+.press_release_date{
+    color: white;
+    float: left;
+    margin: 15px;
+}
+
+.R09{
+font-size: 45px;
+}
+
+.sep{
+  font-size: 25px;
+}
+
+.press_release_p{
+    margin: 15px ;
+    padding-bottom: 20px;
+    color: white;
+    text-align: left;
+    font-size: 19px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.sign_up{
+    position: absolute;
+    z-index: 10;
+    display: inline-block;
+    padding: 10px 10px 10px 26px;
+    margin: 35px 30px 0px 0px;
+    background:dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    right: -20px;
+    bottom: 98px;
+}
+
+.sign_up1 {
+    position: absolute;
+    z-index: 5;
+    margin: 35px 30px 20px 20px;
+    padding: 8px 30px 8px 11px;
+    right: 58px;
+    bottom: 78px;
+}
+    .media_wraper{
+    display: inline-block;
+    margin-top: 100px;
+    margin-right: 150px;
+    text-align: left;
+}
+    .media_front{
+        font-size: 40px;
+    }
+    .media_back{
+        display: none;
+    }
+
+
+.copy_write{
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    left: 166px;
+    color: darkgray;
+}
+
+.copy_write a{
+    text-decoration: none;
+    color: darkgray;
+}
+
+
+.social_media_img_wrper:hover .media_front{
+    display: none;
+}
+
+.social_media_img_wrper:hover .media_back{
+    display: inline-block;
+}
+
+.copy_write:hover a:hover{
+    text-decoration: underline;
 }
